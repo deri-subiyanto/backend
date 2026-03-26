@@ -1,0 +1,8 @@
+POST http://localhost:5293/api/auth/register
+Content-Type: application/json
+
+{
+  "userName": "dery_admin",
+  "password": "password123",
+  "dataUser": "{ \"role\": \"admin\", \"status\": \"active\" }"
+}
